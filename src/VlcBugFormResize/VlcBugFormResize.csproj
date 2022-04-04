@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LibVLCSharp" Version="4.0.0-alpha-20220404-5609" />
+      <PackageReference Include="VideoLAN.LibVLC.Windows" Version="4.0.0-alpha-20220403" />
+    </ItemGroup>
+
+</Project>
