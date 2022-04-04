@@ -1,0 +1,1 @@
+vlc-bug-form-resize
